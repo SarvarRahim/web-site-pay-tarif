@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GENERAL */
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: "Montserret", "Arial", sans-serif;
+    background-image:
+        url("../img/bgc-image.svg"),
+        url("../img/bgc-image-left.svg");
+    background-repeat: no-repeat;
+    background-position: right top -70px, left top 380px;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pricing-site__title {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #6E728E;
+    margin: auto;
+    white-space: nowrap;
+    margin-top: 71px;
+    padding-bottom: 160px;
+}
+
+.pricing-professional {
+    padding-top: 135px;
+}
+
+.cards__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing__list {
+    width: 350px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+    border-radius: 10px 0px 0px 10px;
+    list-style: none;
+    padding: 31px;
+}
+
+.pricing-card__center {
+    width: 350px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+    box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+    border-radius: 10px;
+}
+
+.pricing-card__center h2, .pricing-card__center h3 {
+    color: #fff;
+}
+
+.pricing-card__center span {
+    color: #fff;
+}
+
+.pricing-card__center p {
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+
+
+
+.bold__dollar {
+    font-family: "Montserrat", "Arial", sans-serif;
+    width: 26px;
+}
+
+.pricing-card__title {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #6E728E;
+    margin-top: 31;
+    margin: auto;
+}
+
+.pricing-card__price {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 71px;
+    letter-spacing: -2.16px;
+    text-align: center;
+    color: #4A4D60;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.pricing-card__text {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6E728E;
+    border-top: solid 1px #6E728E;
+    padding-top: 12px;
+}
+
+
+.pricing-card__link {
+    display: block;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.39286px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    border-radius: 6px;
+    padding: 14px 66px;
+    margin: 30px;
+    white-space: nowrap;
+}
+
+.pricing-card__link:hover {
+    background: #FFFFFF;
+    border: 1px solid #6D72DE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #6D72DE;;
+}
+
+.pricing-card__center a {
+    background: #fff;
+    color: #6D72DE;;
+}
+
+.pricing-card__center a:hover{
+    background: #6D72DE;
+    border-radius: 1px solid #fff;
+    color: #fff;
+}
+
+.bold__dollar {
+    width: 26px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    color: #4A4D60;
+    margin-right: 8px;
+}
